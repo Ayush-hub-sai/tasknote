@@ -27,3 +27,2203 @@ NOTE: Raw file sizes do not reflect development server per-request transformatio
   [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m4300[22m/[39m
 [2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
 [1m[33mNG02801: Angular detected that `HttpClient` is not configured to use `fetch` APIs. It's strongly recommended to enable `fetch` for applications that use Server-Side Rendering for better performance and compatibility. To enable `fetch`, add the `withFetch()` to the `provideHttpClient()` call at the root of the application.[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m173.70 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m175.08 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.803 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterLink is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:33:4:
+[37m      33 │     [32mRouterLink[37m,
+         ╵     [32m~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterLinkActive is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:34:4:
+[37m      34 │     [32mRouterLinkActive[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m174.09 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m175.48 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.839 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterLink is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:33:4:
+[37m      33 │     [32mRouterLink[37m,
+         ╵     [32m~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterLinkActive is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:34:4:
+[37m      34 │     [32mRouterLinkActive[37m,
+         ╵     [32m~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m190.70 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m192.08 kB[39m[2m | [22m
+
+Application bundle generation complete. [3.261 seconds]
+
+Component update sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m190.69 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m192.07 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.671 seconds]
+
+Component update sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m190.69 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m192.07 kB[39m[2m | [22m
+
+Application bundle generation complete. [3.673 seconds]
+
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m192.26 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m193.64 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.345 seconds]
+
+Component update sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m193.25 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m194.64 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.378 seconds]
+
+Component update sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m203.80 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m205.18 kB[39m[2m | [22m
+
+Application bundle generation complete. [4.345 seconds]
+
+Component update sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+
+No output file changes.
+
+Application bundle generation complete. [0.026 seconds]
+
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m203.95 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m205.33 kB[39m[2m | [22m
+
+Application bundle generation complete. [9.065 seconds]
+
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m211.29 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m212.67 kB[39m[2m | [22m
+
+Application bundle generation complete. [3.538 seconds]
+
+Component update sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m213.28 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m214.67 kB[39m[2m | [22m
+
+Application bundle generation complete. [4.936 seconds]
+
+Component update sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m208.00 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m209.38 kB[39m[2m | [22m
+
+Application bundle generation complete. [5.957 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:35:4:
+[37m      35 │     [32mRouterOutlet[37m,
+         ╵     [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m       [2m | [22m[36m80.03 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m      [2m | [22m[1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m[2m | [22m[36m81.41 kB[39m[2m | [22m
+
+Application bundle generation complete. [3.871 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:35:4:
+[37m      35 │     [32mRouterOutlet[37m,
+         ╵     [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+[2m12:25:38 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32m✨ new dependencies optimized: [33mtslib[32m[39m
+[2m12:25:38 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m     
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.js[39m        [2m | [22m[2mpolyfills[22m       [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mmain.js[39m             [2m | [22m[2mmain[22m            [2m | [22m [36m80.03 kB[39m[2m | [22m
+[32mstyles.css[39m          [2m | [22m[2mstyles[22m          [2m | [22m  [36m4.87 kB[39m[2m | [22m
+
+[1m [22m                   [2m | [22m[1mInitial total[22m   [2m | [22m[1m174.67 kB[22m
+
+
+[35mServer bundles[39m      
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m           [2m | [22m [1mRaw size[22m
+[32mpolyfills.server.mjs[39m[2m | [22m[2mpolyfills.server[22m[2m | [22m[36m567.23 kB[39m[2m | [22m
+[32mmain.server.mjs[39m     [2m | [22m[2mmain.server[22m     [2m | [22m [36m81.41 kB[39m[2m | [22m
+[32mserver.mjs[39m          [2m | [22m[2mserver[22m          [2m | [22m  [36m1.86 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.077 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:35:4:
+[37m      35 │     [32mRouterOutlet[37m,
+         ╵     [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [2.487 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: RouterOutlet is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:35:4:
+[37m      35 │     [32mRouterOutlet[37m,
+         ╵     [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2729: Property 'noteService' is used before its initialization.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:129:28:
+[37m      129 │   pinnedNotes = signal(this.[32mnoteService[37m.getPinnedNotes().slice(0,...
+          ╵                             [32m~~~~~~~~~~~[0m
+
+  'noteService' is declared here.
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:131:48:
+[37m      131 │ ...te taskService: TaskService, [32mprivate noteService: NoteService[37m) {}
+          ╵                                 [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [2.371 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ThemeSwitcherComponent is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:38:4:
+[37m      38 │     [32mThemeSwitcherComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2729: Property 'noteService' is used before its initialization.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:129:28:
+[37m      129 │   pinnedNotes = signal(this.[32mnoteService[37m.getPinnedNotes().slice(0,...
+          ╵                             [32m~~~~~~~~~~~[0m
+
+  'noteService' is declared here.
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:131:48:
+[37m      131 │ ...te taskService: TaskService, [32mprivate noteService: NoteService[37m) {}
+          ╵                                 [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m     
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m                   [2m | [22m [1mRaw size[22m
+[32mmain.js[39m             [2m | [22m[2mmain[22m                    [2m | [22m[36m119.23 kB[39m[2m | [22m
+[32mpolyfills.js[39m        [2m | [22m[2mpolyfills[22m               [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mchunk-T6JPMGDP.js[39m   [2m | [22m[2m-[22m                       [2m | [22m [36m17.01 kB[39m[2m | [22m
+[32mchunk-2NE6H47R.js[39m   [2m | [22m[2m-[22m                       [2m | [22m  [36m6.49 kB[39m[2m | [22m
+[32mchunk-EHB7CRJZ.js[39m   [2m | [22m[2m-[22m                       [2m | [22m  [36m5.17 kB[39m[2m | [22m
+[32mstyles.css[39m          [2m | [22m[2mstyles[22m                  [2m | [22m  [36m4.87 kB[39m[2m | [22m
+[32mchunk-EGS2JZK4.js[39m   [2m | [22m[2m-[22m                       [2m | [22m  [36m3.84 kB[39m[2m | [22m
+[32mchunk-EVSPGG2W.js[39m   [2m | [22m[2m-[22m                       [2m | [22m  [36m1.64 kB[39m[2m | [22m
+
+[1m [22m                   [2m | [22m[1mInitial total[22m           [2m | [22m[1m248.02 kB[22m
+
+[1mLazy chunk files[22m    [2m | [22m[1mNames[22m                   [2m | [22m [1mRaw size[22m
+[32mchunk-JAT6GGHJ.js[39m   [2m | [22m[2mtasks-page-component[22m    [2m | [22m [36m31.13 kB[39m[2m | [22m
+[32mchunk-DLEJTWI5.js[39m   [2m | [22m[2mdashboard-home-component[22m[2m | [22m [36m22.07 kB[39m[2m | [22m
+[32mchunk-SN7H35G4.js[39m   [2m | [22m[2mmedia-page-component[22m    [2m | [22m [36m19.87 kB[39m[2m | [22m
+[32mchunk-2W3CSLVV.js[39m   [2m | [22m[2mnotes-page-component[22m    [2m | [22m [36m19.03 kB[39m[2m | [22m
+[32mchunk-L7VJKWCV.js[39m   [2m | [22m[2mtheme-page-component[22m    [2m | [22m  [36m5.44 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m      
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m                   [2m | [22m [1mRaw size[22m
+[32mpolyfills.server.mjs[39m[2m | [22m[2mpolyfills.server[22m        [2m | [22m[36m567.23 kB[39m[2m | [22m
+[32mmain.server.mjs[39m     [2m | [22m[2mmain.server[22m             [2m | [22m[36m120.81 kB[39m[2m | [22m
+[32mchunk-TE4JPCGA.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m [36m17.05 kB[39m[2m | [22m
+[32mchunk-PP4BLNNW.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m  [36m6.53 kB[39m[2m | [22m
+[32mchunk-HH3HUHZH.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m  [36m5.20 kB[39m[2m | [22m
+[32mchunk-AVD5M5PE.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m  [36m3.88 kB[39m[2m | [22m
+[32mserver.mjs[39m          [2m | [22m[2mserver[22m                  [2m | [22m  [36m1.86 kB[39m[2m | [22m
+[32mchunk-3ODA65P6.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m  [36m1.67 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m    [2m | [22m[1mNames[22m                   [2m | [22m [1mRaw size[22m
+[32mchunk-C2WWARLW.mjs[39m  [2m | [22m[2mtasks-page-component[22m    [2m | [22m [36m31.16 kB[39m[2m | [22m
+[32mchunk-GF3PLH75.mjs[39m  [2m | [22m[2mdashboard-home-component[22m[2m | [22m [36m22.11 kB[39m[2m | [22m
+[32mchunk-QIDTKDT2.mjs[39m  [2m | [22m[2mmedia-page-component[22m    [2m | [22m [36m19.91 kB[39m[2m | [22m
+[32mchunk-3VY5OD2B.mjs[39m  [2m | [22m[2mnotes-page-component[22m    [2m | [22m [36m19.07 kB[39m[2m | [22m
+[32mchunk-25UKAFEC.mjs[39m  [2m | [22m[2mtheme-page-component[22m    [2m | [22m  [36m5.48 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.697 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mTS-998113: ThemeSwitcherComponent is not used within the template of DashboardComponent[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:38:4:
+[37m      38 │     [32mThemeSwitcherComponent[37m
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m    
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m               [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m                [2m | [22m[36m119.08 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m               [2m | [22m [1mRaw size[22m
+[32mchunk-ZT2JFR45.js[39m  [2m | [22m[2mtheme-page-component[22m[2m | [22m [36m22.43 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m     
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m               [2m | [22m [1mRaw size[22m
+[32mmain.server.mjs[39m    [2m | [22m[2mmain.server[22m         [2m | [22m[36m120.66 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m               [2m | [22m [1mRaw size[22m
+[32mchunk-EN6PRXWO.mjs[39m [2m | [22m[2mtheme-page-component[22m[2m | [22m [36m22.46 kB[39m[2m | [22m
+
+Application bundle generation complete. [2.726 seconds]
+
+Page reload sent to client(s).
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [2.635 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './tasks-page.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:31:15:
+[37m      31 │   templateUrl: [32m'./tasks-page.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.926 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/agent/agent.service.ts:4:22:
+[37m      4 │ import { TaskService, [32mTask[37m } from '../task/task.service';
+        ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:14:22:
+[37m      14 │ import { TaskService, [32mTask[37m } from '../../../core/services/task/tas...
+         ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:202:44:
+[37m      202 │ ....round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+          ╵                                 [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:206:39:
+[37m      206 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+          ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:209:34:
+[37m      209 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'd...
+          ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:12:9:
+[37m      12 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:13:9:
+[37m      13 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './tasks-page.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:31:15:
+[37m      31 │   templateUrl: [32m'./tasks-page.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:89:39:
+[37m      89 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:92:34:
+[37m      92 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:98:44:
+[37m      98 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/search/command-bar/command-bar.component.ts:10:22:
+[37m      10 │ import { TaskService, [32mTask[37m } from '../../../core/services/task/tas...
+         ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [2.099 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/agent/agent.service.ts:4:22:
+[37m      4 │ import { TaskService, [32mTask[37m } from '../task/task.service';
+        ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/core/services/agent/agent.service.ts:5:22:
+[37m      5 │ import { NoteService, [32mNote[37m } from '../note/note.service';
+        ╵                       [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:14:22:
+[37m      14 │ import { TaskService, [32mTask[37m } from '../../../core/services/task/tas...
+         ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:15:22:
+[37m      15 │ import { NoteService, [32mNote[37m } from '../../../core/services/note/not...
+         ╵                       [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:202:44:
+[37m      202 │ ....round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+          ╵                                 [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:206:39:
+[37m      206 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+          ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:209:34:
+[37m      209 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'd...
+          ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:12:9:
+[37m      12 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:10:9:
+[37m      10 │ import { [32mNote[37m, NoteService } from '../../../core/services/note/not...
+         ╵          [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:13:9:
+[37m      13 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:89:39:
+[37m      89 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:92:34:
+[37m      92 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:98:44:
+[37m      98 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/search/command-bar/command-bar.component.ts:10:22:
+[37m      10 │ import { TaskService, [32mTask[37m } from '../../../core/services/task/tas...
+         ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/search/command-bar/command-bar.component.ts:11:22:
+[37m      11 │ import { NoteService, [32mNote[37m } from '../../../core/services/note/not...
+         ╵                       [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.043 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:14:22:
+[37m      14 │ import { TaskService, [32mTask[37m } from '../../../core/services/task/tas...
+         ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:15:22:
+[37m      15 │ import { NoteService, [32mNote[37m } from '../../../core/services/note/not...
+         ╵                       [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2305: Module '"../../../core/services/agent/agent.service"' has no exported member 'AgentMessage'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:16:23:
+[37m      16 │ import { AgentService, [32mAgentMessage[37m } from '../../../core/services...
+         ╵                        [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:202:44:
+[37m      202 │ ....round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+          ╵                                 [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:206:39:
+[37m      206 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+          ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/dashboard/dashboard.component.ts:209:34:
+[37m      209 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'd...
+          ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:12:9:
+[37m      12 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:10:9:
+[37m      10 │ import { [32mNote[37m, NoteService } from '../../../core/services/note/not...
+         ╵          [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:13:9:
+[37m      13 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:89:39:
+[37m      89 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:92:34:
+[37m      92 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:98:44:
+[37m      98 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/search/command-bar/command-bar.component.ts:10:22:
+[37m      10 │ import { TaskService, [32mTask[37m } from '../../../core/services/task/tas...
+         ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/search/command-bar/command-bar.component.ts:11:22:
+[37m      11 │ import { NoteService, [32mNote[37m } from '../../../core/services/note/not...
+         ╵                       [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.221 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:12:9:
+[37m      12 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:10:9:
+[37m      10 │ import { [32mNote[37m, NoteService } from '../../../core/services/note/not...
+         ╵          [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:13:9:
+[37m      13 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:89:39:
+[37m      89 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:92:34:
+[37m      92 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:98:44:
+[37m      98 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/search/command-bar/command-bar.component.ts:10:22:
+[37m      10 │ import { TaskService, [32mTask[37m } from '../../../core/services/task/tas...
+         ╵                       [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/search/command-bar/command-bar.component.ts:11:22:
+[37m      11 │ import { NoteService, [32mNote[37m } from '../../../core/services/note/not...
+         ╵                       [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.224 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:12:9:
+[37m      12 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:10:9:
+[37m      10 │ import { [32mNote[37m, NoteService } from '../../../core/services/note/not...
+         ╵          [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:13:9:
+[37m      13 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:89:39:
+[37m      89 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:92:34:
+[37m      92 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:98:44:
+[37m      98 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.662 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './dashboard-home.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:29:15:
+[37m      29 │   templateUrl: [32m'./dashboard-home.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:10:9:
+[37m      10 │ import { [32mNote[37m, NoteService } from '../../../core/services/note/not...
+         ╵          [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/task/task.service"' declares 'Task' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:13:9:
+[37m      13 │ import { [32mTask[37m, TaskService } from '../../../core/services/task/tas...
+         ╵          [32m~~~~[0m
+
+  'Task' is declared here.
+
+    src/app/core/services/task/task.service.ts:2:9:
+[37m      2 │ import { [32mTask[37m } from '../../models/task.model';
+        ╵          [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:89:39:
+[37m      89 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:92:34:
+[37m      92 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page.component.ts:98:44:
+[37m      98 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.681 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './dashboard-home.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:29:15:
+[37m      29 │   templateUrl: [32m'./dashboard-home.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2459: Module '"../../../core/services/note/note.service"' declares 'Note' locally, but it is not exported.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:10:9:
+[37m      10 │ import { [32mNote[37m, NoteService } from '../../../core/services/note/not...
+         ╵          [32m~~~~[0m
+
+  'Note' is declared here.
+
+    src/app/core/services/note/note.service.ts:2:9:
+[37m      2 │ import { [32mNote[37m } from '../../models/note.model';
+        ╵          [32m~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.799 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './dashboard-home.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:29:15:
+[37m      29 │   templateUrl: [32m'./dashboard-home.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './notes-page.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:26:15:
+[37m      26 │   templateUrl: [32m'./notes-page.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.610 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './dashboard-home.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:29:15:
+[37m      29 │   templateUrl: [32m'./dashboard-home.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './media-page.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page.component.ts:12:15:
+[37m      12 │   templateUrl: [32m'./media-page.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './notes-page.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:26:15:
+[37m      26 │   templateUrl: [32m'./notes-page.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.492 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './dashboard-home.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home.component.ts:29:15:
+[37m      29 │   templateUrl: [32m'./dashboard-home.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './media-page.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page.component.ts:12:15:
+[37m      12 │   templateUrl: [32m'./media-page.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './notes-page.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page.component.ts:26:15:
+[37m      26 │   templateUrl: [32m'./notes-page.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992008: Could not find template file './theme-page.component.html'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page.component.ts:10:15:
+[37m      10 │   templateUrl: [32m'./theme-page.component.html'[37m,
+         ╵                [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.870 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './features/dashboard/pages/dashboard-home.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:13:36:
+[37m      13 │ ...=> import([32m'./features/dashboard/pages/dashboard-home.component'[37m...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './features/dashboard/pages/tasks-page.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:18:36:
+[37m      18 │ ...=> import([32m'./features/dashboard/pages/tasks-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './features/dashboard/pages/notes-page.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:23:36:
+[37m      23 │ ...=> import([32m'./features/dashboard/pages/notes-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './features/dashboard/pages/media-page.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:28:36:
+[37m      28 │ ...=> import([32m'./features/dashboard/pages/media-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './features/dashboard/pages/theme-page.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.routes.ts:33:36:
+[37m      33 │ ...=> import([32m'./features/dashboard/pages/theme-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/dashboard-home.component"[0m
+
+    src/app/app.routes.ts:11:44:
+[37m      11 │ ...=> import([32m'./features/dashboard/pages/dashboard-home.component'[37m...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/tasks-page.component"[0m
+
+    src/app/app.routes.ts:16:44:
+[37m      16 │ ...=> import([32m'./features/dashboard/pages/tasks-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/notes-page.component"[0m
+
+    src/app/app.routes.ts:21:44:
+[37m      21 │ ...=> import([32m'./features/dashboard/pages/notes-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/media-page.component"[0m
+
+    src/app/app.routes.ts:26:44:
+[37m      26 │ ...=> import([32m'./features/dashboard/pages/media-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/theme-page.component"[0m
+
+    src/app/app.routes.ts:31:44:
+[37m      31 │ ...=> import([32m'./features/dashboard/pages/theme-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/dashboard-home.component"[0m
+
+    src/app/app.routes.ts:11:44:
+[37m      11 │ ...=> import([32m'./features/dashboard/pages/dashboard-home.component'[37m...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/tasks-page.component"[0m
+
+    src/app/app.routes.ts:16:44:
+[37m      16 │ ...=> import([32m'./features/dashboard/pages/tasks-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/notes-page.component"[0m
+
+    src/app/app.routes.ts:21:44:
+[37m      21 │ ...=> import([32m'./features/dashboard/pages/notes-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/media-page.component"[0m
+
+    src/app/app.routes.ts:26:44:
+[37m      26 │ ...=> import([32m'./features/dashboard/pages/media-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "./features/dashboard/pages/theme-page.component"[0m
+
+    src/app/app.routes.ts:31:44:
+[37m      31 │ ...=> import([32m'./features/dashboard/pages/theme-page.component'[37m).th...
+         ╵              [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [3.421 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/task.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:11:21:
+[37m      11 │ import { Task } from [32m'../../../core/models/task.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/note/note.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:12:28:
+[37m      12 │ ...t { NoteService } from [32m'../../../core/services/note/note.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/task/task.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:13:28:
+[37m      13 │ ...t { TaskService } from [32m'../../../core/services/task/task.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:42:14:
+[37m      42 │       .filter([32mtask[37m => task.status !== 'archived')
+         ╵               [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'a' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:43:13:
+[37m      43 │       .sort(([32ma[37m, b) => b.createdAt.getTime() - a.createdAt.getTime())
+         ╵              [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'b' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:43:16:
+[37m      43 │       .sort((a, [32mb[37m) => b.createdAt.getTime() - a.createdAt.getTime())
+         ╵                 [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'taskService' of class 'DashboardHomeComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:48:22:
+[37m      48 │   constructor(private [32mtaskService[37m: TaskService, private noteServic...
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:48:35:
+[37m      48 │ ...ctor(private taskService: [32mTaskService[37m, private noteService: Not...
+         ╵                              [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/agent/agent.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:6:29:
+[37m      6 │ ...{ AgentService } from [32m'../../../core/services/agent/agent.service'[37m;
+        ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'agentService' of class 'MediaPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:22:
+[37m      27 │   constructor(private [32magentService[37m: AgentService) {}
+         ╵                       [32m~~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:36:
+[37m      27 │   constructor(private agentService: [32mAgentService[37m) {}
+         ╵                                     [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'response' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:46:105:
+[37m      46 │ ...d note from the latest voice transcript.').subscribe([32mresponse[37m => {
+         ╵                                                         [32m~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/note.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:10:21:
+[37m      10 │ import { Note } from [32m'../../../core/models/note.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/note/note.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:11:28:
+[37m      11 │ ...t { NoteService } from [32m'../../../core/services/note/note.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'note' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:34:51:
+[37m      34 │ ...computed(() => this.notes().filter([32mnote[37m => note.isPinned).length);
+         ╵                                       [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'noteService' of class 'NotesPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:36:22:
+[37m      36 │   constructor(private [32mnoteService[37m: NoteService) {}
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:36:35:
+[37m      36 │   constructor(private noteService: [32mNoteService[37m) {}
+         ╵                                    [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/task.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:13:21:
+[37m      13 │ import { Task } from [32m'../../../core/models/task.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/task/task.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:14:28:
+[37m      14 │ ...t { TaskService } from [32m'../../../core/services/task/task.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:45:68:
+[37m      45 │ ...skService.getTasks()().filter([32mtask[37m => task.status !== 'archived...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:46:71:
+[37m      46 │ ...skService.getTasks()().filter([32mtask[37m => task.status === 'done').l...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'taskService' of class 'TasksPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:49:22:
+[37m      49 │   constructor(private [32mtaskService[37m: TaskService) {}
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:49:35:
+[37m      49 │   constructor(private taskService: [32mTaskService[37m) {}
+         ╵                                    [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:52:37:
+[37m      52 │     return this.activeTasks().filter([32mtask[37m => task.status === status);
+         ╵                                      [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:90:39:
+[37m      90 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:93:34:
+[37m      93 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:99:44:
+[37m      99 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../settings/theme-switcher/theme-switcher.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:4:39:
+[37m      4 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-991010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.589 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/task.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:11:21:
+[37m      11 │ import { Task } from [32m'../../../core/models/task.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/note/note.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:12:28:
+[37m      12 │ ...t { NoteService } from [32m'../../../core/services/note/note.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/task/task.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:13:28:
+[37m      13 │ ...t { TaskService } from [32m'../../../core/services/task/task.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:42:14:
+[37m      42 │       .filter([32mtask[37m => task.status !== 'archived')
+         ╵               [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'a' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:43:13:
+[37m      43 │       .sort(([32ma[37m, b) => b.createdAt.getTime() - a.createdAt.getTime())
+         ╵              [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'b' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:43:16:
+[37m      43 │       .sort((a, [32mb[37m) => b.createdAt.getTime() - a.createdAt.getTime())
+         ╵                 [32m^[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'taskService' of class 'DashboardHomeComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:48:22:
+[37m      48 │   constructor(private [32mtaskService[37m: TaskService, private noteServic...
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/dashboard-home/dashboard-home.component.ts:48:35:
+[37m      48 │ ...ctor(private taskService: [32mTaskService[37m, private noteService: Not...
+         ╵                              [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/agent/agent.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:6:29:
+[37m      6 │ ...{ AgentService } from [32m'../../../core/services/agent/agent.service'[37m;
+        ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'agentService' of class 'MediaPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:22:
+[37m      27 │   constructor(private [32magentService[37m: AgentService) {}
+         ╵                       [32m~~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:36:
+[37m      27 │   constructor(private agentService: [32mAgentService[37m) {}
+         ╵                                     [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'response' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:46:105:
+[37m      46 │ ...d note from the latest voice transcript.').subscribe([32mresponse[37m => {
+         ╵                                                         [32m~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/note.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:10:21:
+[37m      10 │ import { Note } from [32m'../../../core/models/note.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/note/note.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:11:28:
+[37m      11 │ ...t { NoteService } from [32m'../../../core/services/note/note.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'note' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:34:51:
+[37m      34 │ ...computed(() => this.notes().filter([32mnote[37m => note.isPinned).length);
+         ╵                                       [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'noteService' of class 'NotesPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:36:22:
+[37m      36 │   constructor(private [32mnoteService[37m: NoteService) {}
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:36:35:
+[37m      36 │   constructor(private noteService: [32mNoteService[37m) {}
+         ╵                                    [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/task.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:13:21:
+[37m      13 │ import { Task } from [32m'../../../core/models/task.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/task/task.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:14:28:
+[37m      14 │ ...t { TaskService } from [32m'../../../core/services/task/task.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:45:68:
+[37m      45 │ ...skService.getTasks()().filter([32mtask[37m => task.status !== 'archived...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:46:71:
+[37m      46 │ ...skService.getTasks()().filter([32mtask[37m => task.status === 'done').l...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'taskService' of class 'TasksPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:49:22:
+[37m      49 │   constructor(private [32mtaskService[37m: TaskService) {}
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:49:35:
+[37m      49 │   constructor(private taskService: [32mTaskService[37m) {}
+         ╵                                    [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:52:37:
+[37m      52 │     return this.activeTasks().filter([32mtask[37m => task.status === status);
+         ╵                                      [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:90:39:
+[37m      90 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:93:34:
+[37m      93 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:99:44:
+[37m      99 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../settings/theme-switcher/theme-switcher.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:4:39:
+[37m      4 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-991010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.553 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/agent/agent.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:6:29:
+[37m      6 │ ...{ AgentService } from [32m'../../../core/services/agent/agent.service'[37m;
+        ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'agentService' of class 'MediaPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:22:
+[37m      27 │   constructor(private [32magentService[37m: AgentService) {}
+         ╵                       [32m~~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:36:
+[37m      27 │   constructor(private agentService: [32mAgentService[37m) {}
+         ╵                                     [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'response' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:46:105:
+[37m      46 │ ...d note from the latest voice transcript.').subscribe([32mresponse[37m => {
+         ╵                                                         [32m~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/note.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:10:21:
+[37m      10 │ import { Note } from [32m'../../../core/models/note.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/note/note.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:11:28:
+[37m      11 │ ...t { NoteService } from [32m'../../../core/services/note/note.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'note' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:34:51:
+[37m      34 │ ...computed(() => this.notes().filter([32mnote[37m => note.isPinned).length);
+         ╵                                       [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'noteService' of class 'NotesPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:36:22:
+[37m      36 │   constructor(private [32mnoteService[37m: NoteService) {}
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:36:35:
+[37m      36 │   constructor(private noteService: [32mNoteService[37m) {}
+         ╵                                    [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/task.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:13:21:
+[37m      13 │ import { Task } from [32m'../../../core/models/task.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/task/task.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:14:28:
+[37m      14 │ ...t { TaskService } from [32m'../../../core/services/task/task.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:45:68:
+[37m      45 │ ...skService.getTasks()().filter([32mtask[37m => task.status !== 'archived...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:46:71:
+[37m      46 │ ...skService.getTasks()().filter([32mtask[37m => task.status === 'done').l...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'taskService' of class 'TasksPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:49:22:
+[37m      49 │   constructor(private [32mtaskService[37m: TaskService) {}
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:49:35:
+[37m      49 │   constructor(private taskService: [32mTaskService[37m) {}
+         ╵                                    [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'task' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:52:37:
+[37m      52 │     return this.activeTasks().filter([32mtask[37m => task.status === status);
+         ╵                                      [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:90:39:
+[37m      90 │     const subtasks = task.subtasks.map([32msubtask[37m =>
+         ╵                                        [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'subtask' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:93:34:
+[37m      93 │ ...nst status = subtasks.every([32msubtask[37m => subtask.completed) ? 'do...
+         ╵                                [32m~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'item' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/tasks-page/tasks-page.component.ts:99:44:
+[37m      99 │ ...h.round((task.subtasks.filter([32mitem[37m => item.completed).length / ...
+         ╵                                  [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../settings/theme-switcher/theme-switcher.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:4:39:
+[37m      4 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-991010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.533 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/agent/agent.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:6:29:
+[37m      6 │ ...{ AgentService } from [32m'../../../core/services/agent/agent.service'[37m;
+        ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'agentService' of class 'MediaPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:22:
+[37m      27 │   constructor(private [32magentService[37m: AgentService) {}
+         ╵                       [32m~~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:36:
+[37m      27 │   constructor(private agentService: [32mAgentService[37m) {}
+         ╵                                     [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'response' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:46:105:
+[37m      46 │ ...d note from the latest voice transcript.').subscribe([32mresponse[37m => {
+         ╵                                                         [32m~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/models/note.model' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:10:21:
+[37m      10 │ import { Note } from [32m'../../../core/models/note.model'[37m;
+         ╵                      [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/note/note.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:11:28:
+[37m      11 │ ...t { NoteService } from [32m'../../../core/services/note/note.service'[37m;
+         ╵                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'note' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:34:51:
+[37m      34 │ ...computed(() => this.notes().filter([32mnote[37m => note.isPinned).length);
+         ╵                                       [32m~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'noteService' of class 'NotesPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:36:22:
+[37m      36 │   constructor(private [32mnoteService[37m: NoteService) {}
+         ╵                       [32m~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/notes-page/notes-page.component.ts:36:35:
+[37m      36 │   constructor(private noteService: [32mNoteService[37m) {}
+         ╵                                    [32m~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../settings/theme-switcher/theme-switcher.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:4:39:
+[37m      4 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-991010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.902 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../../core/services/agent/agent.service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:6:29:
+[37m      6 │ ...{ AgentService } from [32m'../../../core/services/agent/agent.service'[37m;
+        ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-992003: No suitable injection token for parameter 'agentService' of class 'MediaPageComponent'.
+  Consider using the @Inject decorator to specify an injection token.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:22:
+[37m      27 │   constructor(private [32magentService[37m: AgentService) {}
+         ╵                       [32m~~~~~~~~~~~~[0m
+
+  This type does not have a value, so it cannot be used as injection token.
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:27:36:
+[37m      27 │   constructor(private agentService: [32mAgentService[37m) {}
+         ╵                                     [32m~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'response' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/media-page/media-page.component.ts:46:105:
+[37m      46 │ ...d note from the latest voice transcript.').subscribe([32mresponse[37m => {
+         ╵                                                         [32m~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../settings/theme-switcher/theme-switcher.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:4:39:
+[37m      4 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-991010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+Application bundle generation failed. [1.280 seconds]
+
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../../settings/theme-switcher/theme-switcher.component' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:4:39:
+[37m      4 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mTS-991010: 'imports' must be an array of components, directives, pipes, or NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:9:42:
+[37m      9 │   imports: [MatCardModule, MatIconModule, [32mThemeSwitcherComponent[37m],
+        ╵                                           [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../../settings/theme-switcher/theme-switcher.component"[0m
+
+    src/app/features/dashboard/pages/theme-page/theme-page.component.ts:5:39:
+[37m      5 │ ...ent } from [32m'../../settings/theme-switcher/theme-switcher.compone[37m...
+        ╵               [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[33m❯[39m Changes detected. Rebuilding...
+[32m✔[39m Changes detected. Rebuilding...
+[35mBrowser bundles[39m     
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m                   [2m | [22m [1mRaw size[22m
+[32mmain.js[39m             [2m | [22m[2mmain[22m                    [2m | [22m[36m112.62 kB[39m[2m | [22m
+[32mpolyfills.js[39m        [2m | [22m[2mpolyfills[22m               [2m | [22m [36m89.77 kB[39m[2m | [22m
+[32mchunk-HOSKT3IL.js[39m   [2m | [22m[2m-[22m                       [2m | [22m  [36m6.49 kB[39m[2m | [22m
+[32mchunk-O763V3QX.js[39m   [2m | [22m[2m-[22m                       [2m | [22m  [36m5.17 kB[39m[2m | [22m
+[32mstyles.css[39m          [2m | [22m[2mstyles[22m                  [2m | [22m  [36m4.87 kB[39m[2m | [22m
+[32mchunk-RP2RJ5CI.js[39m   [2m | [22m[2m-[22m                       [2m | [22m  [36m3.84 kB[39m[2m | [22m
+[32mchunk-EVSPGG2W.js[39m   [2m | [22m[2m-[22m                       [2m | [22m  [36m1.64 kB[39m[2m | [22m
+
+[1m [22m                   [2m | [22m[1mInitial total[22m           [2m | [22m[1m224.40 kB[22m
+
+[1mLazy chunk files[22m    [2m | [22m[1mNames[22m                   [2m | [22m [1mRaw size[22m
+[32mchunk-XQW6XRG2.js[39m   [2m | [22m[2mtasks-page-component[22m    [2m | [22m [36m44.35 kB[39m[2m | [22m
+[32mchunk-QC43XGIR.js[39m   [2m | [22m[2mmedia-page-component[22m    [2m | [22m [36m28.17 kB[39m[2m | [22m
+[32mchunk-3OTSSE5A.js[39m   [2m | [22m[2mtheme-page-component[22m    [2m | [22m [36m25.31 kB[39m[2m | [22m
+[32mchunk-RZCOYXYN.js[39m   [2m | [22m[2mdashboard-home-component[22m[2m | [22m [36m25.25 kB[39m[2m | [22m
+[32mchunk-R2ZLP54P.js[39m   [2m | [22m[2mnotes-page-component[22m    [2m | [22m [36m24.66 kB[39m[2m | [22m
+
+
+[35mServer bundles[39m      
+[1mInitial chunk files[22m [2m | [22m[1mNames[22m                   [2m | [22m [1mRaw size[22m
+[32mpolyfills.server.mjs[39m[2m | [22m[2mpolyfills.server[22m        [2m | [22m[36m567.23 kB[39m[2m | [22m
+[32mmain.server.mjs[39m     [2m | [22m[2mmain.server[22m             [2m | [22m[36m114.20 kB[39m[2m | [22m
+[32mchunk-2KKJ6O2J.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m  [36m6.53 kB[39m[2m | [22m
+[32mchunk-GZNKX6PY.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m  [36m5.20 kB[39m[2m | [22m
+[32mchunk-KAALKIZB.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m  [36m3.88 kB[39m[2m | [22m
+[32mserver.mjs[39m          [2m | [22m[2mserver[22m                  [2m | [22m  [36m1.86 kB[39m[2m | [22m
+[32mchunk-3ODA65P6.mjs[39m  [2m | [22m[2m-[22m                       [2m | [22m  [36m1.67 kB[39m[2m | [22m
+
+[1mLazy chunk files[22m    [2m | [22m[1mNames[22m                   [2m | [22m [1mRaw size[22m
+[32mchunk-BNI5COHB.mjs[39m  [2m | [22m[2mtasks-page-component[22m    [2m | [22m [36m44.39 kB[39m[2m | [22m
+[32mchunk-3M7PUTS5.mjs[39m  [2m | [22m[2mmedia-page-component[22m    [2m | [22m [36m28.21 kB[39m[2m | [22m
+[32mchunk-PKDADATL.mjs[39m  [2m | [22m[2mtheme-page-component[22m    [2m | [22m [36m25.34 kB[39m[2m | [22m
+[32mchunk-5HTNXK3Z.mjs[39m  [2m | [22m[2mdashboard-home-component[22m[2m | [22m [36m25.29 kB[39m[2m | [22m
+[32mchunk-NI2NFGTI.mjs[39m  [2m | [22m[2mnotes-page-component[22m    [2m | [22m [36m24.69 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.948 seconds]
+
+Page reload sent to client(s).
+[1m[31mTypeError: Cannot read properties of undefined (reading 'CdkDropList')
+    at DashboardComponent_UpdateMetadata (E:\Angular Real Project\tasknote\ \@ng\component:1054:36)
+    at Module.ɵɵreplaceMetadata (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:21428:17)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:1406:55)
+    at _ZoneDelegate.invoke (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:340:158)
+    at ZoneImpl.run (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:109:35)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:1044:30)
+    at _ZoneDelegate.invokeTask (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:366:171)
+    at ZoneImpl.runTask (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:147:37)
+    at drainMicroTaskQueue (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:526:23)[39m[22m
+[1m[31mTypeError: Cannot read properties of undefined (reading 'CdkDropList')
+    at DashboardComponent_UpdateMetadata (E:\Angular Real Project\tasknote\ \@ng\component:1054:36)
+    at Module.ɵɵreplaceMetadata (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:21428:17)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:1406:55)
+    at _ZoneDelegate.invoke (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:340:158)
+    at ZoneImpl.run (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:109:35)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:1044:30)
+    at _ZoneDelegate.invokeTask (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:366:171)
+    at ZoneImpl.runTask (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:147:37)
+    at drainMicroTaskQueue (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:526:23)[39m[22m
+[1m[31mERROR TypeError: Cannot read properties of undefined (reading 'TaskService')
+    at NodeInjectorFactory.DashboardComponent_Factory (E:\Angular Real Project\tasknote\ \@ng\component:883:172)
+    at getNodeInjectable (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:5385:38)
+    at instantiateAllDirectives (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9675:23)
+    at createDirectivesInstances (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9538:3)
+    at ComponentFactory2.create (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13219:9)
+    at ViewContainerRef2.createComponent (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13413:43)
+    at _RouterOutlet.activateWith (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2056:31)
+    at ActivateRoutes.activateRoutes (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2436:28)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2400:12)
+    at Array.forEach (<anonymous>)[39m[22m
+[1m[31mERROR TypeError: Cannot read properties of undefined (reading 'TaskService')
+    at NodeInjectorFactory.DashboardComponent_Factory (E:\Angular Real Project\tasknote\ \@ng\component:883:172)
+    at getNodeInjectable (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:5385:38)
+    at instantiateAllDirectives (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9675:23)
+    at createDirectivesInstances (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9538:3)
+    at ComponentFactory2.create (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13219:9)
+    at ViewContainerRef2.createComponent (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13413:43)
+    at _RouterOutlet.activateWith (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2056:31)
+    at ActivateRoutes.activateRoutes (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2436:28)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2400:12)
+    at Array.forEach (<anonymous>)[39m[22m
+[2m12:47:36 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32m✨ new dependencies optimized: [33m@angular/material/button-toggle, @angular/material/progress-bar[32m[39m
+[2m12:47:36 pm[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[1m[31mERROR TypeError: Cannot read properties of undefined (reading 'TaskService')
+    at NodeInjectorFactory.DashboardComponent_Factory (E:\Angular Real Project\tasknote\ \@ng\component:883:172)
+    at getNodeInjectable (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:5385:38)
+    at instantiateAllDirectives (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9675:23)
+    at createDirectivesInstances (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9538:3)
+    at ComponentFactory2.create (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13219:9)
+    at ViewContainerRef2.createComponent (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13413:43)
+    at _RouterOutlet.activateWith (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2056:31)
+    at ActivateRoutes.activateRoutes (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2436:28)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2400:12)
+    at Array.forEach (<anonymous>)[39m[22m
+[1m[31mTypeError: Cannot read properties of undefined (reading 'CdkDropList')
+    at DashboardComponent_UpdateMetadata (E:\Angular Real Project\tasknote\ \@ng\component:1054:36)
+    at Module.ɵɵreplaceMetadata (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:21428:17)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:1406:55)
+    at _ZoneDelegate.invoke (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:340:158)
+    at ZoneImpl.run (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:109:35)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:1044:30)
+    at _ZoneDelegate.invokeTask (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:366:171)
+    at ZoneImpl.runTask (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:147:37)
+    at drainMicroTaskQueue (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:526:23)[39m[22m
+[1m[31mERROR TypeError: Cannot read properties of undefined (reading 'TaskService')
+    at NodeInjectorFactory.DashboardComponent_Factory (E:\Angular Real Project\tasknote\ \@ng\component:883:172)
+    at getNodeInjectable (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:5385:38)
+    at instantiateAllDirectives (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9675:23)
+    at createDirectivesInstances (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9538:3)
+    at ComponentFactory2.create (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13219:9)
+    at ViewContainerRef2.createComponent (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13413:43)
+    at _RouterOutlet.activateWith (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2056:31)
+    at ActivateRoutes.activateRoutes (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2436:28)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2400:12)
+    at Array.forEach (<anonymous>)[39m[22m
+[1m[31mERROR TypeError: Cannot read properties of undefined (reading 'TaskService')
+    at NodeInjectorFactory.DashboardComponent_Factory (E:\Angular Real Project\tasknote\ \@ng\component:883:172)
+    at getNodeInjectable (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:5385:38)
+    at instantiateAllDirectives (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9675:23)
+    at createDirectivesInstances (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:9538:3)
+    at ComponentFactory2.create (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13219:9)
+    at ViewContainerRef2.createComponent (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:13413:43)
+    at _RouterOutlet.activateWith (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2056:31)
+    at ActivateRoutes.activateRoutes (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2436:28)
+    at eval (eval at runInlinedModule (file:///E:/Angular%20Real%20Project/tasknote/node_modules/vite/dist/node/module-runner.js:1062:11), <anonymous>:2400:12)
+    at Array.forEach (<anonymous>)[39m[22m

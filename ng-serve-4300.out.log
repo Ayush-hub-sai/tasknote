@@ -1,6 +1,0 @@
-
-> tasknote@0.0.0 start
-> ng serve --host 127.0.0.1 --port 4300
-
- [1mPort 4300 is already in use.
-Would you like to use a different port?[22m [2m(Y/n)[22m[47G
