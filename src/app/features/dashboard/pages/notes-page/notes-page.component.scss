@@ -1,0 +1,145 @@
+:host {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.route-hero {
+  align-items: center;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: clamp(1.35rem, 3vw, 2.25rem);
+}
+
+.overview-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  justify-content: flex-end;
+}
+
+.overview-metrics span {
+  background: color-mix(in srgb, var(--primary-color) 12%, transparent);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  color: var(--text-secondary);
+  min-width: 112px;
+  padding: 0.7rem;
+}
+
+.overview-metrics strong {
+  color: var(--primary-color);
+  display: block;
+  font-size: 1.35rem;
+}
+
+.quick-capture,
+.notes-panel {
+  padding: 1.25rem;
+}
+
+.quick-capture {
+  align-items: end;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 0.65fr 1.35fr;
+}
+
+.capture-controls {
+  align-items: center;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: minmax(200px, 1fr) auto;
+}
+
+.section-header,
+.note-topline {
+  align-items: center;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: space-between;
+}
+
+.notebook-row,
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.notebook-row {
+  margin-bottom: 1rem;
+}
+
+.notebook-row span {
+  align-items: center;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  display: inline-flex;
+  gap: 0.4rem;
+  padding: 0.45rem 0.7rem;
+}
+
+.notes-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  perspective: 1200px;
+}
+
+.note-card {
+  min-height: 250px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 420ms ease;
+}
+
+.note-card:hover {
+  transform: rotateY(180deg);
+}
+
+.note-face {
+  backface-visibility: hidden;
+}
+
+.note-back {
+  inset: 1rem;
+  position: absolute;
+  transform: rotateY(180deg);
+}
+
+.pin-toggle {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  color: var(--primary-color);
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  font-size: 0.78rem;
+  gap: 0.25rem;
+  padding: 0.3rem 0.55rem;
+}
+
+.note-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 1100px) {
+  .route-hero,
+  .quick-capture,
+  .capture-controls,
+  .notes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .overview-metrics {
+    justify-content: flex-start;
+  }
+}

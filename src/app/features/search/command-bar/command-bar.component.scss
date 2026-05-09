@@ -1,3 +1,26 @@
+.command-shell {
+  position: relative;
+}
+
+.command-trigger {
+  align-items: center;
+  border-radius: 999px !important;
+  display: inline-flex !important;
+  gap: 0.45rem;
+  min-height: 44px;
+
+  kbd {
+    background: var(--surface-color);
+    border: 1px solid var(--glass-border);
+    border-radius: 7px;
+    color: var(--text-secondary);
+    font: inherit;
+    font-size: 0.76rem;
+    margin-left: 0.25rem;
+    padding: 0.15rem 0.35rem;
+  }
+}
+
 .command-bar {
   position: fixed;
   top: 20px;
@@ -5,7 +28,7 @@
   transform: translateX(-50%);
   width: 600px;
   max-width: 90vw;
-  z-index: 1000;
+  z-index: 1500;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;

@@ -1,0 +1,118 @@
+<header class="dashboard-header glass-card">
+  <div>
+    <p class="eyebrow">AI powered productivity</p>
+    <h1>Capture tasks, notes, voice, video, and decisions in one focused place.</h1>
+    <p class="hero-copy">A modern workspace with routed pages, smart search, rich notes, media capture, and a context-aware planning agent.</p>
+
+    <div class="hero-links">
+      <a mat-raised-button color="primary" routerLink="/tasks"><mat-icon>checklist</mat-icon>Open tasks</a>
+      <a mat-stroked-button color="primary" routerLink="/notes"><mat-icon>edit_note</mat-icon>Review notes</a>
+    </div>
+  </div>
+
+  <div class="hero-visual" aria-hidden="true">
+    <div class="orbital-stage">
+      <span class="orbit orbit-one"></span>
+      <span class="orbit orbit-two"></span>
+      <span class="core-tile"><mat-icon>auto_awesome</mat-icon></span>
+      <span class="dock dock-top"><mat-icon>task_alt</mat-icon></span>
+      <span class="dock dock-right"><mat-icon>edit_note</mat-icon></span>
+      <span class="dock dock-bottom"><mat-icon>mic</mat-icon></span>
+    </div>
+  </div>
+</header>
+
+<section class="stats-grid">
+  <mat-card class="glass-card stat-card tilt-card">
+    <mat-card-content>
+      <mat-icon>task_alt</mat-icon>
+      <div class="stat-value">{{ totalTasks() }}</div>
+      <div class="stat-label">Total Tasks</div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="glass-card stat-card tilt-card">
+    <mat-card-content>
+      <mat-icon>done_all</mat-icon>
+      <div class="stat-value">{{ completedTasks() }}</div>
+      <div class="stat-label">Completed</div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="glass-card stat-card tilt-card">
+    <mat-card-content>
+      <mat-icon>schedule</mat-icon>
+      <div class="stat-value">{{ overdueTasks() }}</div>
+      <div class="stat-label">Overdue</div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="glass-card stat-card tilt-card">
+    <mat-card-content>
+      <mat-icon>edit_note</mat-icon>
+      <div class="stat-value">{{ totalNotes() }}</div>
+      <div class="stat-label">Notes</div>
+    </mat-card-content>
+  </mat-card>
+</section>
+
+<section class="quick-capture glass-card">
+  <div>
+    <p class="eyebrow">Quick capture</p>
+    <h2>Create work without breaking flow.</h2>
+  </div>
+
+  <div class="capture-controls">
+    <mat-form-field appearance="outline">
+      <mat-label>New task</mat-label>
+      <input matInput [(ngModel)]="newTaskTitle" placeholder="Example: Review launch notes">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="addTask()"><mat-icon>add</mat-icon>Add Task</button>
+
+    <mat-form-field appearance="outline">
+      <mat-label>New note</mat-label>
+      <input matInput [(ngModel)]="newNoteTitle" placeholder="Example: Product idea">
+    </mat-form-field>
+    <button mat-stroked-button color="primary" (click)="addNote()"><mat-icon>note_add</mat-icon>Add Note</button>
+  </div>
+</section>
+
+<section class="dashboard-snapshot">
+  <mat-card class="glass-card snapshot-card">
+    <mat-card-content>
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Today focus</p>
+          <h2>Highest priority work</h2>
+        </div>
+        <a mat-button color="primary" routerLink="/tasks">Manage</a>
+      </div>
+
+      <div class="task-row compact" *ngFor="let task of recentTasks()">
+        <mat-icon>flag</mat-icon>
+        <strong>{{ task.title }}</strong>
+        <mat-chip [class]="'priority-' + task.priority">{{ task.priority }}</mat-chip>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="glass-card snapshot-card">
+    <mat-card-content>
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Pinned notes</p>
+          <h2>Context worth keeping close</h2>
+        </div>
+        <a mat-button color="primary" routerLink="/notes">Open</a>
+      </div>
+
+      <div class="note-mini" *ngFor="let note of pinnedNotes()">
+        <mat-icon>push_pin</mat-icon>
+        <span>
+          <strong>{{ note.title }}</strong>
+          <small>{{ note.folder || 'Inbox' }}</small>
+        </span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</section>

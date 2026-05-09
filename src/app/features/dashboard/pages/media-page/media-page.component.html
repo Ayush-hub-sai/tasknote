@@ -1,0 +1,111 @@
+<header class="route-hero glass-card">
+  <div>
+    <p class="eyebrow">Media workspace</p>
+    <h1>Record, preview, scan, and attach context-rich media.</h1>
+    <p>Voice notes, video clips, image scans, and OCR outputs sit beside tasks and notes so ideas do not get lost between tools.</p>
+  </div>
+
+  <div class="overview-metrics">
+    <span><strong>{{ mediaClips.length }}</strong> clips</span>
+    <span><strong>OCR</strong> ready</span>
+    <span><strong>AI</strong> draft</span>
+  </div>
+</header>
+
+<section class="media-grid">
+  <mat-card class="glass-card media-card">
+    <mat-card-content>
+      <div class="media-heading">
+        <mat-icon>graphic_eq</mat-icon>
+        <div>
+          <h3>Voice notes</h3>
+          <p>Capture audio, visualize waveform activity, and draft notes from the transcript.</p>
+        </div>
+      </div>
+
+      <div class="waveform" [class.recording]="recording">
+        <i *ngFor="let bar of waveformBars"></i>
+      </div>
+
+      <div class="media-actions">
+        <button mat-raised-button color="primary" (click)="toggleRecording()">
+          <mat-icon>{{ recording ? 'stop' : 'fiber_manual_record' }}</mat-icon>
+          {{ recording ? 'Stop voice note' : 'Record voice note' }}
+        </button>
+        <button mat-stroked-button color="primary" (click)="draftFromVoice()">Draft from voice</button>
+      </div>
+
+      <p class="agent-result" *ngIf="agentDraft">{{ agentDraft }}</p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="glass-card media-card">
+    <mat-card-content>
+      <div class="media-heading">
+        <mat-icon>videocam</mat-icon>
+        <div>
+          <h3>Video clips</h3>
+          <p>Stage short clips, review thumbnails, and attach them to task or note context.</p>
+        </div>
+      </div>
+
+      <div class="video-dropzone" [class.recording]="videoRecording">
+        <mat-icon>{{ videoRecording ? 'radio_button_checked' : 'movie' }}</mat-icon>
+        <span>{{ videoRecording ? 'Recording short clip...' : 'Drop video here or record a clip' }}</span>
+      </div>
+
+      <div class="media-actions">
+        <button mat-raised-button color="primary" (click)="toggleVideoRecording()">
+          <mat-icon>{{ videoRecording ? 'stop' : 'videocam' }}</mat-icon>
+          {{ videoRecording ? 'Stop video' : 'Record video' }}
+        </button>
+        <button mat-stroked-button color="primary" (click)="openMediaLightbox()">Open lightbox</button>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="glass-card media-card media-library">
+    <mat-card-content>
+      <div class="media-heading">
+        <mat-icon>collections</mat-icon>
+        <div>
+          <h3>Media library</h3>
+          <p>Captured assets stay attached to tasks and notes for fast recall.</p>
+        </div>
+      </div>
+
+      <div class="clip-list">
+        <button type="button" *ngFor="let clip of mediaClips" (click)="openMediaLightbox()">
+          <mat-icon>{{ clip.icon }}</mat-icon>
+          <span>
+            <strong>{{ clip.title }}</strong>
+            <small>{{ clip.type }} - {{ clip.detail }}</small>
+          </span>
+        </button>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</section>
+
+<section class="media-lightbox" *ngIf="mediaLightboxOpen">
+  <div class="media-lightbox-card glass-card">
+    <button mat-icon-button aria-label="Close media lightbox" (click)="closeMediaLightbox()"><mat-icon>close</mat-icon></button>
+    <p class="eyebrow">Media preview</p>
+    <h2>Review captures before attaching them.</h2>
+
+    <div class="preview-frame">
+      <mat-icon>play_circle</mat-icon>
+      <span>Video, audio, image, and OCR previews open here.</span>
+    </div>
+
+    <div class="clip-list">
+      <button type="button" *ngFor="let clip of mediaClips">
+        <mat-icon>{{ clip.icon }}</mat-icon>
+        <span>
+          <strong>{{ clip.title }}</strong>
+          <small>{{ clip.detail }}</small>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>

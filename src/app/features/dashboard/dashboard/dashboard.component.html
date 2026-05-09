@@ -8,241 +8,31 @@
       <span class="brand-cube"><mat-icon>view_in_ar</mat-icon></span>
       <div>
         <strong>TaskNote</strong>
-        <small>3D agent workspace</small>
+        <small>Focused workspace</small>
       </div>
     </div>
 
     <nav aria-label="Workspace navigation">
-      <button class="active" type="button"><mat-icon>dashboard</mat-icon>Dashboard</button>
-      <button type="button"><mat-icon>checklist</mat-icon>Tasks</button>
-      <button type="button"><mat-icon>sticky_note_2</mat-icon>Notes</button>
-      <button type="button"><mat-icon>perm_media</mat-icon>Media</button>
+      <a
+        *ngFor="let item of navItems"
+        [routerLink]="item.route"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">
+        <mat-icon>{{ item.icon }}</mat-icon>{{ item.label }}
+      </a>
       <button type="button" (click)="shortcutsOpen = true"><mat-icon>keyboard</mat-icon>Shortcuts</button>
     </nav>
   </aside>
 
   <main class="dashboard-main">
-    <header class="dashboard-header glass-card">
-      <div>
-        <p class="eyebrow">AI powered productivity</p>
-        <h1>Capture tasks, notes, voice, video, and decisions in one focused place.</h1>
-        <p class="hero-copy">A modern glass workspace with smart search, rich notes, media capture, and an agent that can read your current context.</p>
-      </div>
-      <div class="header-actions">
-        <app-command-bar></app-command-bar>
-        <button mat-fab color="primary" aria-label="Open AI Agent" (click)="toggleAgent()">
-          <mat-icon>flash_on</mat-icon>
-        </button>
-      </div>
-    </header>
+    <div class="workspace-toolbar glass-card">
+      <app-command-bar></app-command-bar>
+      <button mat-fab color="primary" aria-label="Open AI Agent" (click)="toggleAgent()">
+        <mat-icon>flash_on</mat-icon>
+      </button>
+    </div>
 
-    <app-theme-switcher></app-theme-switcher>
-
-    <section class="stats-grid">
-      <mat-card class="glass-card stat-card tilt-card">
-        <mat-card-content>
-          <mat-icon>task_alt</mat-icon>
-          <div class="stat-value">{{ totalTasks() }}</div>
-          <div class="stat-label">Total Tasks</div>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card class="glass-card stat-card tilt-card">
-        <mat-card-content>
-          <mat-icon>done_all</mat-icon>
-          <div class="stat-value">{{ completedTasks() }}</div>
-          <div class="stat-label">Completed</div>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card class="glass-card stat-card tilt-card">
-        <mat-card-content>
-          <mat-icon>schedule</mat-icon>
-          <div class="stat-value">{{ overdueTasks() }}</div>
-          <div class="stat-label">Overdue</div>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card class="glass-card stat-card tilt-card">
-        <mat-card-content>
-          <mat-icon>edit_note</mat-icon>
-          <div class="stat-value">{{ totalNotes() }}</div>
-          <div class="stat-label">Notes</div>
-        </mat-card-content>
-      </mat-card>
-    </section>
-
-    <section class="quick-capture glass-card">
-      <div>
-        <p class="eyebrow">Quick capture</p>
-        <h2>Create work without breaking flow.</h2>
-      </div>
-      <div class="capture-controls">
-        <mat-form-field appearance="outline">
-          <mat-label>New task</mat-label>
-          <input matInput [(ngModel)]="newTaskTitle" placeholder="Example: Review launch notes">
-        </mat-form-field>
-        <button mat-raised-button color="primary" (click)="addTask()"><mat-icon>add</mat-icon>Add Task</button>
-        <mat-form-field appearance="outline">
-          <mat-label>New note</mat-label>
-          <input matInput [(ngModel)]="newNoteTitle" placeholder="Example: Product idea">
-        </mat-form-field>
-        <button mat-stroked-button color="primary" (click)="addNote()"><mat-icon>note_add</mat-icon>Add Note</button>
-      </div>
-    </section>
-
-    <section class="media-grid">
-      <mat-card class="glass-card media-card">
-        <mat-card-content>
-          <div class="media-heading">
-            <mat-icon>graphic_eq</mat-icon>
-            <div>
-              <h3>Voice notes</h3>
-              <p>MediaRecorder-ready capture with waveform and transcription hooks.</p>
-            </div>
-          </div>
-          <div class="waveform" [class.recording]="recording">
-            <i *ngFor="let bar of [1,2,3,4,5,6,7,8,9,10]"></i>
-          </div>
-          <div class="media-actions">
-            <button mat-raised-button color="primary" (click)="toggleRecording()">
-              <mat-icon>{{ recording ? 'stop' : 'fiber_manual_record' }}</mat-icon>
-              {{ recording ? 'Stop voice note' : 'Record voice note' }}
-            </button>
-            <button mat-stroked-button color="primary" (click)="quickAction('voice')">Draft from voice</button>
-          </div>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card class="glass-card media-card">
-        <mat-card-content>
-          <div class="media-heading">
-            <mat-icon>videocam</mat-icon>
-            <div>
-              <h3>Video clips</h3>
-              <p>Short video notes, thumbnails, uploads, and lightbox playback space.</p>
-            </div>
-          </div>
-          <div class="video-dropzone" [class.recording]="videoRecording">
-            <mat-icon>{{ videoRecording ? 'radio_button_checked' : 'movie' }}</mat-icon>
-            <span>{{ videoRecording ? 'Recording short clip...' : 'Drop video here or record a clip' }}</span>
-          </div>
-          <div class="media-actions">
-            <button mat-raised-button color="primary" (click)="toggleVideoRecording()">
-              <mat-icon>{{ videoRecording ? 'stop' : 'videocam' }}</mat-icon>
-              {{ videoRecording ? 'Stop video' : 'Record video' }}
-            </button>
-            <button mat-stroked-button color="primary">Open lightbox</button>
-          </div>
-        </mat-card-content>
-      </mat-card>
-    </section>
-
-    <section class="workspace-section glass-card">
-      <div class="section-header">
-        <div>
-          <p class="eyebrow">Tasks</p>
-          <h2>Kanban, list, calendar, and drag-and-drop reorder.</h2>
-        </div>
-        <div class="view-toggle" aria-label="Task view selector">
-          <button type="button" [class.active]="activeView() === 'kanban'" (click)="activeView.set('kanban')">Kanban</button>
-          <button type="button" [class.active]="activeView() === 'list'" (click)="activeView.set('list')">List</button>
-          <button type="button" [class.active]="activeView() === 'calendar'" (click)="activeView.set('calendar')">Calendar</button>
-        </div>
-      </div>
-
-      <div class="kanban-board" *ngIf="activeView() === 'kanban'" cdkDropListGroup>
-        <div
-          class="kanban-column"
-          *ngFor="let column of columns"
-          cdkDropList
-          [cdkDropListData]="activeTasks()"
-          (cdkDropListDropped)="dropTask($event, column.status)">
-          <h3><mat-icon>{{ column.icon }}</mat-icon>{{ column.label }}</h3>
-          <mat-card
-            *ngFor="let task of activeTasks()"
-            [hidden]="task.status !== column.status"
-            class="task-card glass-card tilt-card"
-            cdkDrag
-            [cdkDragData]="task">
-            <mat-card-content>
-              <div class="task-header">
-                <h4>{{ task.title }}</h4>
-                <mat-chip [class]="'priority-' + task.priority">{{ task.priority }}</mat-chip>
-              </div>
-              <p>{{ task.description }}</p>
-              <div class="countdown" [class.overdue]="countdown(task) === 'Overdue'">{{ countdown(task) }}</div>
-              <div class="tags">
-                <mat-chip *ngFor="let tag of task.tags" size="small">#{{ tag }}</mat-chip>
-              </div>
-              <div class="task-footer">
-                <span class="progress-ring" [style.--progress]="progress(task) + '%'">{{ progress(task) }}%</span>
-                <div class="task-actions">
-                  <button mat-icon-button aria-label="Edit task" (click)="editTask(task)"><mat-icon>edit</mat-icon></button>
-                  <button mat-icon-button aria-label="Archive task" (click)="archiveTask(task)"><mat-icon>archive</mat-icon></button>
-                  <button mat-icon-button aria-label="Delete task" (click)="deleteTask(task)"><mat-icon>delete</mat-icon></button>
-                </div>
-              </div>
-            </mat-card-content>
-          </mat-card>
-        </div>
-      </div>
-
-      <div class="task-list-view" *ngIf="activeView() === 'list'">
-        <div class="task-row" *ngFor="let task of activeTasks()">
-          <mat-icon>drag_indicator</mat-icon>
-          <strong>{{ task.title }}</strong>
-          <span>{{ task.priority }}</span>
-          <span>{{ countdown(task) }}</span>
-          <button mat-button color="primary" (click)="moveTask(task, 'done')">Mark done</button>
-        </div>
-      </div>
-
-      <div class="calendar-view" *ngIf="activeView() === 'calendar'">
-        <div *ngFor="let day of ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']">
-          <strong>{{ day }}</strong>
-          <span *ngFor="let task of activeTasks().slice(0, 2)">{{ task.title }}</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="notes-panel glass-card">
-      <div class="section-header">
-        <div>
-          <p class="eyebrow">Notes</p>
-          <h2>Rich notes with markdown preview, folders, pinning, media, and versions.</h2>
-        </div>
-        <button mat-stroked-button color="primary" (click)="markdownPreview.set(!markdownPreview())">
-          {{ markdownPreview() ? 'Editor mode' : 'Preview mode' }}
-        </button>
-      </div>
-
-      <div class="notebook-row">
-        <span *ngFor="let folder of folders()"><mat-icon>folder</mat-icon>{{ folder }}</span>
-      </div>
-
-      <div class="notes-grid">
-        <mat-card *ngFor="let note of pinnedNotes()" class="note-card glass-card">
-          <mat-card-content>
-            <div class="note-face note-front">
-              <div class="note-topline">
-                <span><mat-icon>{{ note.isPinned ? 'star' : 'folder' }}</mat-icon>{{ note.folder || 'Inbox' }}</span>
-                <span>{{ note.versions.length }} versions</span>
-              </div>
-              <h3>{{ note.title }}</h3>
-              <p>{{ markdownPreview() ? note.content : 'Markdown editor active. Type rich content, attach media, and auto-save versions.' }}</p>
-              <div class="tags">
-                <mat-chip *ngFor="let tag of note.tags" size="small">{{ tag }}</mat-chip>
-              </div>
-            </div>
-            <div class="note-face note-back">
-              <strong>Media embeds</strong>
-              <p>{{ note.attachments?.length || 0 }} attachment(s): image, audio, or video clips.</p>
-            </div>
-          </mat-card-content>
-        </mat-card>
-      </div>
-    </section>
+    <router-outlet></router-outlet>
   </main>
 
   <button class="agent-fab" mat-fab color="primary" aria-label="Open AI Agent" (click)="toggleAgent()">
@@ -253,7 +43,7 @@
     <mat-sidenav [opened]="agentOpen" mode="over" position="end" class="agent-sidebar">
       <div class="agent-header">
         <div>
-          <span>Claude-ready agent</span>
+          <span>Context agent</span>
           <h3>TaskNote Copilot</h3>
         </div>
         <button mat-icon-button (click)="toggleAgent()" aria-label="Close AI Agent">
@@ -307,8 +97,8 @@
   <section class="onboarding-overlay" *ngIf="onboardingOpen">
     <div class="onboarding-card glass-card">
       <p class="eyebrow">Welcome to TaskNote</p>
-      <h2>Your 3D command center is ready.</h2>
-      <p>Use the command bar for search, switch themes in Theme Studio, capture voice/video notes, and ask the AI agent for planning help.</p>
+      <h2>Your command center is ready.</h2>
+      <p>Use the left navigation for routed pages, search with Ctrl+K, switch themes, capture media, and ask the AI agent for planning help.</p>
       <button mat-raised-button color="primary" (click)="closeOnboarding()">Start planning</button>
     </div>
   </section>

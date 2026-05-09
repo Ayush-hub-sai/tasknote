@@ -7,8 +7,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { TaskService, Task } from '../../../core/services/task/task.service';
-import { NoteService, Note } from '../../../core/services/note/note.service';
+import { Note } from '../../../core/models/note.model';
+import { Task } from '../../../core/models/task.model';
+import { TaskService } from '../../../core/services/task/task.service';
+import { NoteService } from '../../../core/services/note/note.service';
 
 declare var Tesseract: any; // OCR library
 
@@ -143,7 +145,7 @@ export class CommandBarComponent implements OnInit, OnDestroy {
     switch (this.mode) {
       case 'audio': return 'Listening...';
       case 'scan': return 'Point camera at text...';
-      default: return 'Search tasks and notes... (⌘K)';
+      default: return 'Search tasks and notes... (Ctrl+K)';
     }
   }
 

@@ -1,0 +1,82 @@
+<header class="route-hero glass-card">
+  <div>
+    <p class="eyebrow">Notes workspace</p>
+    <h1>Write, pin, version, and organize useful context.</h1>
+    <p>Use folders and tags to keep notes discoverable. Preview mode reads like clean notes; editor mode reserves space for richer Markdown editing.</p>
+  </div>
+
+  <div class="overview-metrics">
+    <span><strong>{{ notes().length }}</strong> notes</span>
+    <span><strong>{{ folders().length }}</strong> folders</span>
+    <span><strong>{{ pinnedCount() }}</strong> pinned</span>
+  </div>
+</header>
+
+<section class="quick-capture glass-card">
+  <div>
+    <p class="eyebrow">Quick note</p>
+    <h2>Capture an idea and pin it if it matters.</h2>
+  </div>
+
+  <div class="capture-controls">
+    <mat-form-field appearance="outline">
+      <mat-label>New note</mat-label>
+      <input matInput [(ngModel)]="newNoteTitle" (keydown.enter)="addNote()" placeholder="Example: Customer research insight">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="addNote()">
+      <mat-icon>note_add</mat-icon>
+      Add Note
+    </button>
+  </div>
+</section>
+
+<section class="notes-panel glass-card">
+  <div class="section-header">
+    <div>
+      <p class="eyebrow">Notebook</p>
+      <h2>Folders, pins, media, and versions.</h2>
+    </div>
+
+    <button mat-stroked-button color="primary" (click)="markdownPreview.set(!markdownPreview())">
+      {{ markdownPreview() ? 'Editor mode' : 'Preview mode' }}
+    </button>
+  </div>
+
+  <div class="notebook-row">
+    <span *ngFor="let folder of folders()"><mat-icon>folder</mat-icon>{{ folder }}</span>
+  </div>
+
+  <div class="notes-grid">
+    <mat-card *ngFor="let note of notes()" class="note-card glass-card">
+      <mat-card-content>
+        <div class="note-face note-front">
+          <div class="note-topline">
+            <span><mat-icon>{{ note.isPinned ? 'star' : 'folder' }}</mat-icon>{{ note.folder || 'Inbox' }}</span>
+            <button type="button" class="pin-toggle" (click)="togglePin(note)">
+              <mat-icon>push_pin</mat-icon>{{ note.isPinned ? 'Pinned' : 'Pin' }}
+            </button>
+          </div>
+
+          <h3>{{ note.title }}</h3>
+          <p>{{ markdownPreview() ? note.content : 'Markdown editor active. Type rich content, attach media, and auto-save versions.' }}</p>
+
+          <div class="tags">
+            <mat-chip *ngFor="let tag of note.tags" size="small">{{ tag }}</mat-chip>
+          </div>
+
+          <div class="note-actions">
+            <button mat-button color="primary" (click)="appendActionItem(note)">Add action item</button>
+            <button mat-button color="warn" (click)="deleteNote(note)">Delete</button>
+          </div>
+        </div>
+
+        <div class="note-face note-back">
+          <strong>Media and history</strong>
+          <p>{{ note.attachments?.length || 0 }} attachment(s): image, audio, or video clips.</p>
+          <p>{{ note.versions.length }} saved version(s) for rollback.</p>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</section>

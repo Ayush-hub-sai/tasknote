@@ -1,21 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
-import { TaskService, Task } from '../task/task.service';
-import { NoteService, Note } from '../note/note.service';
-
-export interface AgentMessage {
-  id: string;
-  role: 'user' | 'assistant';
-  content: string;
-  timestamp: Date;
-}
-
-export interface AgentContext {
-  tasks: Task[];
-  notes: Note[];
-  currentDate: Date;
-}
+import { AgentContext } from '../../models/agent.model';
+import { NoteService } from '../note/note.service';
+import { Task } from '../../models/task.model';
+import { TaskService } from '../task/task.service';
 
 @Injectable({
   providedIn: 'root'

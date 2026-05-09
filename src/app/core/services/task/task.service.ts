@@ -1,31 +1,5 @@
 import { Injectable, signal } from '@angular/core';
-
-export interface Task {
-  id: string;
-  title: string;
-  description?: string;
-  priority: 'critical' | 'high' | 'medium' | 'low';
-  status: 'todo' | 'in-progress' | 'done' | 'archived';
-  dueDate?: Date;
-  tags: string[];
-  subtasks: Subtask[];
-  createdAt: Date;
-  updatedAt: Date;
-  attachments?: Attachment[];
-}
-
-export interface Subtask {
-  id: string;
-  title: string;
-  completed: boolean;
-}
-
-export interface Attachment {
-  id: string;
-  type: 'audio' | 'video' | 'image';
-  url: string;
-  name: string;
-}
+import { Task } from '../../models/task.model';
 
 @Injectable({
   providedIn: 'root'

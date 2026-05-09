@@ -1,0 +1,130 @@
+<header class="route-hero glass-card">
+  <div>
+    <p class="eyebrow">Task workspace</p>
+    <h1>Plan, reorder, and finish focused work.</h1>
+    <p>Use Kanban for flow, List for triage, and Calendar for deadline review. Every task supports subtasks, progress, priority, tags, archive, and delete.</p>
+  </div>
+
+  <div class="overview-metrics">
+    <span><strong>{{ activeTasks().length }}</strong> active</span>
+    <span><strong>{{ completedTasks() }}</strong> complete</span>
+    <span><strong>{{ overdueTasks() }}</strong> overdue</span>
+  </div>
+</header>
+
+<section class="quick-capture glass-card">
+  <div>
+    <p class="eyebrow">Quick task</p>
+    <h2>Add a task without leaving this page.</h2>
+  </div>
+
+  <div class="capture-controls">
+    <mat-form-field appearance="outline">
+      <mat-label>New task</mat-label>
+      <input matInput [(ngModel)]="newTaskTitle" (keydown.enter)="addTask()" placeholder="Example: Ship task routing fix">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="addTask()">
+      <mat-icon>add</mat-icon>
+      Add Task
+    </button>
+  </div>
+</section>
+
+<section class="workspace-section glass-card">
+  <div class="section-header">
+    <div>
+      <p class="eyebrow">Tasks</p>
+      <h2>Kanban, list, and calendar views.</h2>
+    </div>
+
+    <mat-button-toggle-group
+      class="view-toggle"
+      aria-label="Task view selector"
+      [value]="activeView()"
+      (change)="activeView.set($event.value)">
+      <mat-button-toggle value="kanban"><mat-icon>view_kanban</mat-icon>Kanban</mat-button-toggle>
+      <mat-button-toggle value="list"><mat-icon>view_list</mat-icon>List</mat-button-toggle>
+      <mat-button-toggle value="calendar"><mat-icon>calendar_month</mat-icon>Calendar</mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+
+  <div class="kanban-board" *ngIf="activeView() === 'kanban'" cdkDropListGroup>
+    <div
+      class="kanban-column"
+      *ngFor="let column of columns"
+      cdkDropList
+      [cdkDropListData]="tasksByStatus(column.status)"
+      (cdkDropListDropped)="dropTask($event, column.status)">
+      <h3><mat-icon>{{ column.icon }}</mat-icon>{{ column.label }}</h3>
+
+      <mat-card
+        *ngFor="let task of tasksByStatus(column.status)"
+        class="task-card glass-card tilt-card"
+        cdkDrag
+        [cdkDragData]="task">
+        <mat-card-content>
+          <div class="task-header">
+            <h4>{{ task.title }}</h4>
+            <mat-chip [class]="'priority-' + task.priority">{{ task.priority }}</mat-chip>
+          </div>
+
+          <p>{{ task.description }}</p>
+          <div class="countdown" [class.overdue]="countdown(task) === 'Overdue'">{{ countdown(task) }}</div>
+
+          <mat-progress-bar mode="determinate" [value]="progress(task)"></mat-progress-bar>
+
+          <div class="subtask-list" *ngIf="task.subtasks.length">
+            <button type="button" *ngFor="let subtask of task.subtasks" (click)="toggleSubtask(task, subtask.id)">
+              <mat-icon>{{ subtask.completed ? 'check_circle' : 'radio_button_unchecked' }}</mat-icon>
+              <span [class.done]="subtask.completed">{{ subtask.title }}</span>
+            </button>
+          </div>
+
+          <div class="tags">
+            <mat-chip *ngFor="let tag of task.tags" size="small">#{{ tag }}</mat-chip>
+          </div>
+
+          <div class="task-footer">
+            <span class="progress-ring" [style.--progress]="progress(task) + '%'">{{ progress(task) }}%</span>
+            <div class="task-actions">
+              <button mat-icon-button aria-label="Move task to progress" (click)="moveTask(task, 'in-progress')">
+                <mat-icon>play_arrow</mat-icon>
+              </button>
+              <button mat-icon-button aria-label="Mark task done" (click)="moveTask(task, 'done')">
+                <mat-icon>done</mat-icon>
+              </button>
+              <button mat-icon-button aria-label="Archive task" (click)="archiveTask(task)">
+                <mat-icon>archive</mat-icon>
+              </button>
+              <button mat-icon-button aria-label="Delete task" (click)="deleteTask(task)">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+
+  <div class="task-list-view" *ngIf="activeView() === 'list'">
+    <mat-card class="task-row glass-card" *ngFor="let task of activeTasks()">
+      <mat-card-content>
+        <mat-icon>drag_indicator</mat-icon>
+        <strong>{{ task.title }}</strong>
+        <mat-chip [class]="'priority-' + task.priority">{{ task.priority }}</mat-chip>
+        <span>{{ countdown(task) }}</span>
+        <button mat-button color="primary" (click)="moveTask(task, 'done')">Mark done</button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <div class="calendar-view" *ngIf="activeView() === 'calendar'">
+    <mat-card class="calendar-day glass-card" *ngFor="let day of weekDays">
+      <mat-card-content>
+        <strong>{{ day }}</strong>
+        <span *ngFor="let task of activeTasks().slice(0, 2)">{{ task.title }}</span>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</section>
