@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { DashboardComponent } from './features/dashboard/dashboard/dashboard.component';
-import { RouterOutlet } from "../../node_modules/@angular/router/router_module.d-Bx9ArA6K";
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [DashboardComponent, RouterOutlet],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

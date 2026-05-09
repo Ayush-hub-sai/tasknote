@@ -1,4 +1,5 @@
-import { Injectable, signal } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { Inject, Injectable, PLATFORM_ID, signal } from '@angular/core';
 
 export type Theme = 'obsidian-dark' | 'arctic-light' | 'solar-warm' | 'forest-deep' | 'neon-synthwave';
 
@@ -16,8 +17,11 @@ export class ThemeService {
     'neon-synthwave': { name: 'Neon Synthwave', description: 'Purple/pink gradients, glowing borders, retro grid' }
   };
 
-  constructor() {
-    const savedTheme = localStorage.getItem('tasknote-theme') as Theme | null;
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) private platformId: object
+  ) {
+    const savedTheme = this.isBrowser() ? localStorage.getItem('tasknote-theme') as Theme | null : null;
     if (savedTheme && Object.prototype.hasOwnProperty.call(this.themes, savedTheme)) {
       this.currentTheme.set(savedTheme);
       this.applyTheme(savedTheme);
@@ -32,17 +36,22 @@ export class ThemeService {
 
   setTheme(theme: Theme) {
     this.currentTheme.set(theme);
-    localStorage.setItem('tasknote-theme', theme);
+    if (this.isBrowser()) {
+      localStorage.setItem('tasknote-theme', theme);
+    }
     this.applyTheme(theme);
   }
 
   private applyTheme(theme: Theme) {
-    const root = document.documentElement;
+    const root = this.document.documentElement;
     root.setAttribute('data-theme', theme);
-    // CSS variables are defined via the imported theme styles
   }
 
   getAllThemes() {
     return Object.keys(this.themes) as Theme[];
+  }
+
+  private isBrowser() {
+    return isPlatformBrowser(this.platformId);
   }
 }

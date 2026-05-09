@@ -1,5 +1,5 @@
-import { Component, ElementRef, ViewChild, OnInit, OnDestroy } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, ElementRef, ViewChild, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core';
+import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -50,19 +50,29 @@ export class CommandBarComponent implements OnInit, OnDestroy {
   private analyser?: AnalyserNode;
   private animationFrame?: number;
   private stream?: MediaStream;
+  private readonly isBrowser: boolean;
+  private readonly keydownHandler = (event: KeyboardEvent) => this.handleGlobalKeydown(event);
 
   constructor(
     private taskService: TaskService,
-    private noteService: NoteService
-  ) {}
+    private noteService: NoteService,
+    @Inject(DOCUMENT) private document: Document,
+    @Inject(PLATFORM_ID) platformId: object
+  ) {
+    this.isBrowser = isPlatformBrowser(platformId);
+  }
 
   ngOnInit() {
     this.loadRecentSearches();
-    document.addEventListener('keydown', this.handleGlobalKeydown.bind(this));
+    if (this.isBrowser) {
+      this.document.addEventListener('keydown', this.keydownHandler);
+    }
   }
 
   ngOnDestroy() {
-    document.removeEventListener('keydown', this.handleGlobalKeydown.bind(this));
+    if (this.isBrowser) {
+      this.document.removeEventListener('keydown', this.keydownHandler);
+    }
     this.stopRecording();
     this.stopScanning();
   }
@@ -76,7 +86,7 @@ export class CommandBarComponent implements OnInit, OnDestroy {
 
   toggleCommandBar() {
     this.isOpen = !this.isOpen;
-    if (this.isOpen) {
+    if (this.isOpen && this.isBrowser) {
       setTimeout(() => this.searchInput.nativeElement.focus(), 100);
     } else {
       this.resetState();
@@ -148,6 +158,8 @@ export class CommandBarComponent implements OnInit, OnDestroy {
   }
 
   private async startRecording() {
+    if (!this.isBrowser || !navigator.mediaDevices || typeof MediaRecorder === 'undefined') return;
+
     try {
       this.stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       this.mediaRecorder = new MediaRecorder(this.stream);
@@ -171,7 +183,7 @@ export class CommandBarComponent implements OnInit, OnDestroy {
   }
 
   private setupAudioAnalysis() {
-    if (!this.stream) return;
+    if (!this.isBrowser || !this.stream) return;
 
     this.audioContext = new AudioContext();
     this.analyser = this.audioContext.createAnalyser();
@@ -183,7 +195,7 @@ export class CommandBarComponent implements OnInit, OnDestroy {
   }
 
   private drawWaveform() {
-    if (!this.analyser || !this.waveformCanvas) return;
+    if (!this.isBrowser || !this.analyser || !this.waveformCanvas) return;
 
     const canvas = this.waveformCanvas.nativeElement;
     const ctx = canvas.getContext('2d')!;
@@ -218,15 +230,20 @@ export class CommandBarComponent implements OnInit, OnDestroy {
       this.mediaRecorder.stop();
       this.stream?.getTracks().forEach(track => track.stop());
       this.isRecording = false;
-      if (this.animationFrame) {
+      if (this.isBrowser && this.animationFrame) {
         cancelAnimationFrame(this.animationFrame);
       }
     }
   }
 
   private async processAudioToText() {
+    if (!this.isBrowser) return;
+
     // Use Web Speech API
-    const recognition = new (window as any).webkitSpeechRecognition();
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+    if (!SpeechRecognition) return;
+
+    const recognition = new SpeechRecognition();
     recognition.continuous = false;
     recognition.interimResults = false;
 
@@ -251,6 +268,8 @@ export class CommandBarComponent implements OnInit, OnDestroy {
   }
 
   private async startScanning() {
+    if (!this.isBrowser || !navigator.mediaDevices) return;
+
     try {
       this.stream = await navigator.mediaDevices.getUserMedia({ video: true });
       this.videoElement.nativeElement.srcObject = this.stream;
@@ -268,9 +287,12 @@ export class CommandBarComponent implements OnInit, OnDestroy {
   }
 
   async captureAndOCR() {
+    if (!this.isBrowser || typeof Tesseract === 'undefined') return;
+
     const video = this.videoElement.nativeElement;
     const canvas = this.scanCanvas.nativeElement;
     const ctx = canvas.getContext('2d');
+    if (!ctx) return;
 
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
@@ -294,6 +316,8 @@ export class CommandBarComponent implements OnInit, OnDestroy {
   }
 
   private saveRecentSearch() {
+    if (!this.isBrowser) return;
+
     if (this.query.trim() && !this.recentSearches.includes(this.query)) {
       this.recentSearches.unshift(this.query);
       this.recentSearches = this.recentSearches.slice(0, 10); // Keep last 10
@@ -302,9 +326,15 @@ export class CommandBarComponent implements OnInit, OnDestroy {
   }
 
   private loadRecentSearches() {
+    if (!this.isBrowser) return;
+
     const saved = localStorage.getItem('recentSearches');
     if (saved) {
-      this.recentSearches = JSON.parse(saved);
+      try {
+        this.recentSearches = JSON.parse(saved);
+      } catch {
+        this.recentSearches = [];
+      }
     }
   }
 }
