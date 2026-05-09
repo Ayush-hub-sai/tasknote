@@ -1,0 +1,85 @@
+<div class="command-bar" [class.open]="isOpen">
+  <div class="command-input-container">
+    <mat-form-field appearance="outline" class="command-field">
+      <input matInput
+             #searchInput
+             type="text"
+             [placeholder]="getPlaceholder()"
+             [(ngModel)]="query"
+             (input)="onQueryChange()"
+             (keydown)="onKeyDown($event)"
+             (focus)="onFocus()"
+             (blur)="onBlur()">
+    </mat-form-field>
+
+    <div class="command-actions">
+      <button mat-icon-button
+              [color]="mode === 'audio' ? 'primary' : 'basic'"
+              (click)="toggleAudioMode()"
+              matTooltip="Voice Search">
+        <mat-icon>mic</mat-icon>
+      </button>
+      <button mat-icon-button
+              [color]="mode === 'scan' ? 'primary' : 'basic'"
+              (click)="toggleScanMode()"
+              matTooltip="Scan/OCR">
+        <mat-icon>camera_alt</mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <div class="results-dropdown" *ngIf="showResults">
+    <div class="results-section" *ngIf="taskResults.length > 0">
+      <h4>Tasks</h4>
+      <mat-list>
+        <mat-list-item *ngFor="let task of taskResults.slice(0, 5)">
+          <mat-icon matListIcon>task</mat-icon>
+          <div matLine>{{ task.title }}</div>
+          <div matLine class="secondary">{{ task.priority }}</div>
+        </mat-list-item>
+      </mat-list>
+    </div>
+
+    <div class="results-section" *ngIf="noteResults.length > 0">
+      <h4>Notes</h4>
+      <mat-list>
+        <mat-list-item *ngFor="let note of noteResults.slice(0, 5)">
+          <mat-icon matListIcon>note</mat-icon>
+          <div matLine>{{ note.title }}</div>
+          <div matLine class="secondary">{{ note.tags.join(', ') }}</div>
+        </mat-list-item>
+      </mat-list>
+    </div>
+
+    <div class="recent-searches" *ngIf="recentSearches.length > 0 && !query">
+      <h4>Recent Searches</h4>
+      <mat-list>
+        <mat-list-item *ngFor="let search of recentSearches" (click)="setQuery(search)">
+          <mat-icon matListIcon>search</mat-icon>
+          <div matLine>{{ search }}</div>
+        </mat-list-item>
+      </mat-list>
+    </div>
+  </div>
+
+  <!-- Audio recording UI -->
+  <div class="audio-recording" *ngIf="isRecording">
+    <div class="waveform-container">
+      <canvas #waveformCanvas class="waveform"></canvas>
+    </div>
+    <button mat-raised-button color="warn" (click)="stopRecording()">
+      <mat-icon>stop</mat-icon>
+      Stop Recording
+    </button>
+  </div>
+
+  <!-- Scan/OCR UI -->
+  <div class="scan-mode" *ngIf="isScanning">
+    <video #videoElement class="scan-video" autoplay></video>
+    <canvas #scanCanvas class="scan-canvas" style="display: none;"></canvas>
+    <button mat-raised-button color="primary" (click)="captureAndOCR()">
+      <mat-icon>camera</mat-icon>
+      Capture
+    </button>
+  </div>
+</div>

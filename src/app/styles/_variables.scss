@@ -1,0 +1,14 @@
+// Global CSS Variables - will be overridden by themes
+:root {
+  --primary-color: #00ffff;
+  --secondary-color: #ff00ff;
+  --background-color: #000000;
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --text-color: #ffffff;
+  --text-secondary: #cccccc;
+  --border-color: rgba(255, 255, 255, 0.2);
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --blur: blur(16px);
+}

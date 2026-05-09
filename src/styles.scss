@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Import variables and animations
+@use 'app/styles/variables' as vars;
+@use 'app/styles/animations' as anim;
+
+// Import themes
+@use 'app/styles/themes/obsidian' as obsidian;
+@use 'app/styles/themes/arctic' as arctic;
+@use 'app/styles/themes/solar' as solar;
+@use 'app/styles/themes/forest' as forest;
+@use 'app/styles/themes/neon' as neon;
+
+// Global Material theme setup will be done in components
+// Material theming can be applied at component level
+
+// Global styles
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  background: var(--background-color);
+  overflow-x: hidden;
+}
+
+// Glassmorphism utility classes
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: var(--blur);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px var(--shadow-color);
+}
+
+.tilt-card {
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.tilt-card:hover {
+  transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
+}

@@ -1,0 +1,21 @@
+<div class="theme-switcher">
+  <h3>Choose Theme</h3>
+  <div class="theme-grid">
+    <mat-card
+      *ngFor="let theme of themes"
+      class="theme-option"
+      [class.active]="currentTheme === theme.key"
+      (click)="setTheme(theme.key)">
+      <mat-card-content>
+        <div class="theme-preview" [attr.data-theme]="theme.key">
+          <div class="preview-card"></div>
+          <div class="preview-accent"></div>
+        </div>
+        <div class="theme-info">
+          <div class="theme-name">{{ theme.name }}</div>
+          <div class="theme-desc">{{ theme.description }}</div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

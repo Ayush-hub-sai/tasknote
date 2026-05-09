@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { DashboardComponent } from './features/dashboard/dashboard/dashboard.component';
+import { RouterOutlet } from "../../node_modules/@angular/router/router_module.d-Bx9ArA6K";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [DashboardComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'tasknote';
+  title = 'TaskNote';
 }

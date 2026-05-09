@@ -1,0 +1,163 @@
+<div class="dashboard">
+  <header class="dashboard-header">
+    <h1>TaskNote</h1>
+    <div class="header-actions">
+      <app-command-bar></app-command-bar>
+      <button mat-fab color="primary" (click)="toggleAgent()">
+        <mat-icon>flash_on</mat-icon>
+      </button>
+    </div>
+  </header>
+
+  <div class="dashboard-content">
+    <div class="stats-grid">
+      <mat-card class="glass-card">
+        <mat-card-content>
+          <div class="stat">
+            <div class="stat-icon">📋</div>
+            <div class="stat-value">{{ totalTasks() }}</div>
+            <div class="stat-label">Total Tasks</div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="glass-card">
+        <mat-card-content>
+          <div class="stat">
+            <div class="stat-icon">✅</div>
+            <div class="stat-value">{{ completedTasks() }}</div>
+            <div class="stat-label">Completed</div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="glass-card">
+        <mat-card-content>
+          <div class="stat">
+            <div class="stat-icon">⏰</div>
+            <div class="stat-value">{{ overdueTasks() }}</div>
+            <div class="stat-label">Overdue</div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="glass-card">
+        <mat-card-content>
+          <div class="stat">
+            <div class="stat-icon">📝</div>
+            <div class="stat-value">{{ totalNotes() }}</div>
+            <div class="stat-label">Notes</div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div class="main-content">
+      <div class="tasks-section">
+        <div class="section-header">
+          <h2>Recent Tasks</h2>
+          <button mat-raised-button color="primary" (click)="addTask()">
+            <mat-icon>add</mat-icon>
+            Add Task
+          </button>
+        </div>
+        <div class="tasks-list">
+          <mat-card *ngFor="let task of recentTasks()" class="task-card glass-card">
+            <mat-card-content>
+              <div class="task-content">
+                <div class="task-header">
+                  <h3>{{ task.title }}</h3>
+                  <mat-chip [class]="'priority-' + task.priority">
+                    {{ task.priority }}
+                  </mat-chip>
+                </div>
+                <p *ngIf="task.description">{{ task.description }}</p>
+                <div class="task-meta">
+                  <span class="due-date" *ngIf="task.dueDate">
+                    📅 {{ task.dueDate | date:'short' }}
+                  </span>
+                  <div class="tags">
+                    <mat-chip *ngFor="let tag of task.tags" size="small">{{ tag }}</mat-chip>
+                  </div>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+
+      <div class="notes-section">
+        <div class="section-header">
+          <h2>Pinned Notes</h2>
+          <button mat-raised-button color="primary" (click)="addNote()">
+            <mat-icon>add</mat-icon>
+            Add Note
+          </button>
+        </div>
+        <div class="notes-list">
+          <mat-card *ngFor="let note of pinnedNotes()" class="note-card glass-card">
+            <mat-card-content>
+              <div class="note-content">
+                <h3>{{ note.title }}</h3>
+                <p>{{ note.content.substring(0, 100) }}...</p>
+                <div class="note-meta">
+                  <div class="tags">
+                    <mat-chip *ngFor="let tag of note.tags" size="small">{{ tag }}</mat-chip>
+                  </div>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Agent Sidebar -->
+  <mat-sidenav-container class="agent-container">
+    <mat-sidenav [opened]="agentOpen" mode="over" position="end" class="agent-sidebar">
+      <div class="agent-header">
+        <h3>AI Agent</h3>
+        <button mat-icon-button (click)="toggleAgent()">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+      <div class="agent-content">
+        <div class="quick-actions">
+          <button mat-stroked-button (click)="quickAction('summarize')">
+            <mat-icon>analytics</mat-icon>
+            Summarize Day
+          </button>
+          <button mat-stroked-button (click)="quickAction('overdue')">
+            <mat-icon>schedule</mat-icon>
+            Find Overdue
+          </button>
+          <button mat-stroked-button (click)="quickAction('prioritize')">
+            <mat-icon>priority_high</mat-icon>
+            Prioritize Tasks
+          </button>
+        </div>
+        <div class="chat-interface">
+          <div class="messages">
+            <mat-card *ngFor="let msg of messages()" class="message-card">
+              <mat-card-content>
+                <div class="message-content" [class.user]="msg.role === 'user'" [class.agent]="msg.role === 'assistant'">
+                  {{ msg.content }}
+                </div>
+              </mat-card-content>
+            </mat-card>
+          </div>
+          <div class="message-input">
+            <mat-form-field appearance="outline" class="full-width">
+              <input matInput
+                     [(ngModel)]="newMessage"
+                     (keydown.enter)="sendMessage()"
+                     placeholder="Ask me anything...">
+            </mat-form-field>
+            <button mat-raised-button color="primary" (click)="sendMessage()">Send</button>
+          </div>
+        </div>
+      </div>
+    </mat-sidenav>
+  </mat-sidenav-container>
+</div>
